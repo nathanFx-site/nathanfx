@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+nathanfx	TRUE	/	FALSE	1999999999	woocommerce_items_in_cart	1
+nathanfx	TRUE	/	FALSE	1999999999	wp_woocommerce_session_127a5bfac8cebf6cdaf1f01eacd2210b	t_b10088359eefabc73b284306e7487a%7C%7C1755080546%7C%7C1755076946%7C%7C016515d36525754acd8197f25f406cce
+nathanfx	TRUE	/	FALSE	1999999999	woocommerce_cart_hash	1b66cd9792fc2234361f9a4a0a9b32f2
+nathanfx	TRUE	/	FALSE	1999999999	wordpress_test_cookie	WP%20Cookie%20check
+

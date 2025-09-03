@@ -1,0 +1,745 @@
+/* Affiliate dashboard design */
+
+.fs_affiliates_frontend_table tfoot nav {
+	float: right;
+	border: 0;
+	clear: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.fs_affiliates_frontend_table tfoot nav ul {
+	margin: 0;
+	list-style: none;
+	border: none !important;
+}
+
+.fs_affiliates_frontend_table tfoot nav ul li {
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.fs-product-commission-search-btn{
+	margin-bottom: 15px !important;
+	margin-left: 10px !important;
+	margin-top:5px;
+}
+
+.fs_affiliates_frontend_table tfoot nav ul li span {
+	margin: 0;
+	padding: 0;
+}
+
+.fs_affiliates_frontend_table tfoot nav ul li a {
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+	background: #fafafa;
+	border: none;
+	color: #43454b;
+	text-decoration: none;
+	border: 1px solid #ccc;
+}
+
+.fs_affiliates_frontend_table tfoot nav ul li .current {
+	background: #ccc;
+	border: none;
+}
+.fs_affiliates_frontend_table thead tr th {
+	background: #ccc;
+	border: none;
+}
+
+.fs_affiliates_frontend_table tfoot nav ul li .current a,
+.fs_affiliates_frontend_table tfoot nav ul li a:hover {
+	background: #ccc;
+	border: none;
+	color: #000;
+}
+
+.fs_affiliates_frontend_dashboard{
+	width:100%;
+	float:left;
+	box-shadow:0 0 5px #000;
+	margin-bottom:20px;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_frontend_dashboard {
+	background:none;
+	border:none;
+	box-shadow:none;
+	margin-bottom:0px;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu{
+	width:100%;
+	float:left;
+}
+
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu .fs_affiliates_menu_ul{
+	width:100%;
+	float:left;
+	padding-left:20px;
+	margin:0;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu ul.fs_affiliates_menu_ul li{
+	list-style: none;
+	float:left;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu ul.fs_affiliates_menu_ul li a{
+	padding:10px 15px 10px 15px;
+	display:block;
+	font-size:16px;
+	outline: none;
+	text-decoration:none;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu ul.fs_affiliates_menu_ul li a:hover{
+	text-decoration:none;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu ul.fs_affiliates_menu_ul li a i{
+	padding-right:10px;
+	font-size:18px;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu ul.fs_affiliates_menu_ul li a.current{
+	text-decoration:none;
+}
+
+/* submenu */
+
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu ul.fs_affiliates_menu_ul ul{
+	position:absolute;
+	display:none;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu ul.fs_affiliates_menu_ul li:hover{
+	position:relative;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu ul.fs_affiliates_menu_ul li:hover ul{
+	top:40px;
+	background:#52ac67;
+	padding:0px;
+	z-index: 99;
+	display:block;
+	left:0;
+	margin:0px;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu ul.fs_affiliates_menu_ul li:hover ul li a{
+	display:block;
+	width:200px;
+	padding:5px 10px;
+	outline: none;
+}
+
+/*  Menu Content  */
+
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content{
+	float:left;
+	width:100%;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator{
+	width:96%;
+	margin:15px auto;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator h2,
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_form h2{
+	font-size:18px;
+	margin:0px 0px 15px 0px;
+	padding:0px 0px 10px 0px;
+	font-weight:600;
+}
+.fs_affiliates_validation_error, .fs_affiliates_refer_friend_validation_error{
+	color:#d30034;
+	float:left;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator table.fs_affiliates_generate_link_table{
+	width:100%;
+	margin:0px 0px 5px 0px !important;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator table.fs_affiliates_generate_link_table tr{
+	background:none !important;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator table.fs_affiliates_generate_link_table,
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator table.fs_affiliates_generate_link_table td,
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator table.fs_affiliates_generate_link_table th{
+	border:none !important;
+	padding: 5px 0px !important;
+	background:none !important;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator table td input[type='text'],
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator table td select{
+	height:35px;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator table td input[type='text'],
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator table td select{
+	border-radius:5px;
+	border:1px solid #bbb;
+	width:100%;
+	padding:0px 0px 0px 10px;
+	background:#f1f1f1;
+	color:#222;
+	margin:0px !important;
+	box-shadow:none !important;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator label{
+	width:100%;
+	display:block;
+	padding:0px 0px 10px 0px;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_form p input[type='text']{
+	border-radius:5px;
+	border:1px solid #bbb;
+	width:100%;
+	padding:0px 0px 0px 10px;
+	background:#f1f1f1;
+	color:#222;
+	margin:0px !important;
+	box-shadow:none !important;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_form p textarea{
+	border-radius:5px;
+	border:1px solid #bbb;
+	width:100%;
+	padding:0px 0px 0px 10px;
+	background:#f1f1f1;
+	color:#222;
+	margin:0px !important;
+	box-shadow:none !important;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator table td .fs_affiliates_generate_affiliate_link,
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_form .fs_affiliates_form_save,
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_download_btn,
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs-product-commission-search-btn,
+.fs_affiliates_generate_campaign_affiliate_link,
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs-commission-transfer-to-wallet-btn,
+.fs-date-filter-button{
+	padding: 10px 15px !important;
+	color: #fefefe !important;
+	width:170px !important;
+	text-align:center;
+	height: auto !important;
+	border: none !important;
+	text-shadow: none !important;
+	font-weight: 600;
+	font-size:16px !important;
+	letter-spacing: 1px;
+	margin:10px 0px 0px 0px !important;
+	display: block;
+	float:left;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_download_btn{
+	border: 2px solid  #2fa3f2 !important;
+	color:#000 !important;
+	box-shadow:none;
+	margin:0 auto !important;
+	width:120px !important;
+	float:none !important;
+	font-size:13px !important;
+	padding: 7px 10px !important;
+}
+.fs_affiliates_fileupload_frontend_table .fs_affiliates_download_btn i,
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_qrdownload_btn i{
+	margin-left:10px;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_download_btn:hover{
+	background:#2fa3f2 !important;
+	box-shadow: 0 5px #308fd2 !important;
+	color:#fff !important;
+}
+.fs_affiliates_form_save:active,
+.fs_affiliates_generate_affiliate_link:active,
+.fs_affiliates_download_btn:active,
+.fs-product-commission-search-btn:active
+.fs_affiliates_menu_content .fs-commission-transfer-to-wallet-btn:active {
+	transform: translateY(5px);
+	box-shadow: none !important;
+}
+
+.fs-affiliate-commission-transfer-to-wallet-table tr td:first-child {
+	text-align: center !important;
+}
+
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_qrdownload_btn{
+	border: 2px solid  #2fa3f2 !important;
+	color:#fff !important;
+	box-shadow:none;
+	width:135px !important;
+	float:none !important;
+	font-size:13px !important;
+	padding: 7px 10px !important;
+	display:block;
+	background:#2fa3f2 !important;
+	font-weight:bold;
+	letter-spacing: 1px;
+	text-align:center;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_qrdownload_btn:hover{
+	box-shadow:0 0 3px #000;
+
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator .fs_display_generated_link, .fs_display_generated_campaign_link{
+	width:100%;
+	float:left;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_link_generator .fs_display_generated_link p, .fs_display_generated_campaign_link p{
+	color:#000 !important;
+	margin:5px !important;
+	padding:5px 0px !important;
+}
+.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_form{
+	width:96%;
+	margin:2% 0 2% 2%;
+	float:left;
+}
+.fs_affiliates_form p{
+	margin-bottom:10px !important;
+	width:100%;
+	float:left;
+	display:block;
+}
+.fs_affiliates_form p label,
+.fs_affiliates_form label{
+	width:100%;
+	display:block;
+	padding:0px 0px 10px 0px;
+}
+.fs_affiliates_form label span{
+	color:#000;
+}
+.fs_affiliates_form p label.fs_affiliates_label{
+	width:25%;
+	display:block;
+	float:left;
+}
+.fs_affiliates_form p label.fs_affiliates_commission{
+	width:50%;
+	display:block;
+	float:left;
+}
+.fs_affiliates_form p input.fs_affiliates_checkbox{
+	width:auto !important;
+
+}
+.fs_affiliates_form p input, .fs_affiliates_form p select{
+	border-radius:5px;
+	border:1px solid #bbb;
+	width:100%;
+	padding:0px 0px 0px 10px;
+	background:#f1f1f1;
+	height:35px;
+	color:#222;
+	margin:0px !important;
+	box-shadow:none !important;
+}
+.fs_affiliates_form .pagination-centered{
+	float:none;
+	display:block;
+	margin:10px auto;
+	padding: 10px;
+	text-align:center;
+}
+#fs_affiliates_pay_msg_success{
+	display:block;
+	margin-left:2%;
+	margin-top:2%;
+	color:#09bc1b;
+	font-size:14px;
+	font-weight:bold;
+}
+/*  frontend table design   */
+
+.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table,
+.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table,
+.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table,
+.fs_affiliates_menu_content table.fs_affiliates_overview_frontend_table,
+.fs_affiliates_menu_content table.fs_affiliates_order_detail_frontend_table,
+.fs_affiliates_menu_content table.fs_affiliates_customer_detail_frontend_table,
+.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table,
+.fs_affiliates_menu_content table.fs_affiliates_commission_frontend_table,
+.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table,
+.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table,
+.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table,
+.fs_affiliates_menu_content table.fs_affiliates_fileupload_frontend_table,
+.fs_affiliates_menu_content table.fs_affiliates_landing_page_table,
+.fs_affiliates_menu_content table.fs_affiliates_coupon_linking_table,
+.fs_affiliates_menu_content table.fs_affiliates_domain_table{
+	width:97%;
+	margin:20px auto;
+	border-collapse: collapse;
+	background:#fff;
+	border:1px solid #ccc;
+}
+.fs_affiliates_menu_content table.fs_affiliates_frontend_table{
+	width:100%;
+	margin:20px auto;
+	border-collapse: collapse;
+	background:#fff;
+	border:1px solid #ccc;
+}
+.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table .fs_affiliate_payout_request_log_table{
+	width:100%;
+}
+.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table tbody tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table tbody tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliate_payout_request_log_table tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliates_fileupload_frontend_table tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliates_landing_page_table tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliates_coupon_linking_table tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliates_frontend_table tr:nth-child(2n+1),
+.fs_affiliates_menu_content table.fs_affiliates_domain_table tr:nth-child(2n+1){
+	background:#f9f9f9;
+}
+.fs_affiliates_menu_content table.fs_affiliates_overview_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_order_detail_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_customer_detail_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_commission_frontend_table tbody th{
+	width:250px;
+}
+.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliate_payout_request_log_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_overview_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_order_detail_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_customer_detail_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_commission_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_fileupload_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_landing_page_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_coupon_linking_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_frontend_table tbody th,
+.fs_affiliates_menu_content table.fs_affiliates_frontend_table thead th,
+.fs_affiliates_menu_content table.fs_affiliates_domain_table tbody th,
+.fs_affiliates_menu_content table.fs-affiliate-commission-transfer-to-wallet-table thead th {
+	font-weight: bold;
+	border:1px solid #ccc;
+	padding:10px;
+	text-align: center;
+	font-size:14px;
+}
+.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliate_payout_request_log_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_overview_frontend_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_order_detail_frontend_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_customer_detail_frontend_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_commission_frontend_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_fileupload_frontend_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_landing_page_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_coupon_linking_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_frontend_table tbody td,
+.fs_affiliates_menu_content table.fs_affiliates_domain_table tbody td,
+.fs_affiliates_menu_content table.fs-affiliate-commission-transfer-to-wallet-table tbody td {
+	padding:10px;
+	border:1px solid #ccc;
+	color:#000;
+	font-size:14px;
+}
+.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tbody td img{
+	width:100px;
+	height:auto;
+}
+
+table.fs_affiliates_creatives_frontend_table td.fs_copy_creatives_link .fs_copy_clipboard_image{
+	width:auto !important;
+	height:auto !important;
+}
+
+table.fs_affiliates_creatives_frontend_table td.fs_copy_creatives_link,
+table.fs_affiliates_creatives_frontend_table .fs_copy_message{
+	text-align:center !important;
+}
+
+.fs_affiliates_landing_page_table .fs_copy_affiliate_link{
+	text-align: center;
+}
+.fs_affiliates_landing_page_table .fs_landing_pages_link p{
+	margin-bottom:10px;
+}
+
+.fs_display_generated_link .fp_affiliates_vk,
+.fs_display_generated_link .fp_affiliates_whatsapp,
+.fs_display_generated_link .fp_affiliates_fb,
+.fs_display_generated_link .twitter-share-button,
+.fs_display_generated_link #___plus_0,
+.fs_landing_pages_link .fp_affiliates_vk,
+.fs_landing_pages_link .fp_affiliates_whatsapp,
+.fs_landing_pages_link .fp_affiliates_fb,
+.fs_landing_pages_link .twitter-share-button,
+.fs_landing_pages_link #___plus_0
+
+{
+	float:left !important;
+	margin-right:5px !important;
+	margin-bottom:10px;
+	border-radius:3px;
+}
+.fp_affiliates_vk{
+	background:#4682c7;
+	width:54px;
+}
+.fp_affiliates_whatsapp{
+	background:#25d366;
+	width:50px;
+}
+.fp_affiliates_fb{
+	background:#3b5998;
+	width:54px;
+	cursor:pointer;
+}
+.fp_affiliates_fb:hover{
+	opacity: 0.7;
+}
+.fp_affiliates_vk, .fp_affiliates_whatsapp, .fp_affiliates_fb{
+	height:20px;
+	color:#fff !important;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:18px;
+}
+.fp_affiliates_vk:hover, .fp_affiliates_whatsapp:hover, .fp_affiliates_fb:hover{
+	color:#fff !important;
+	text-decoration: none;
+}
+.fp_affiliates_vk i, .fp_affiliates_whatsapp i, .fp_affiliates_fb i{
+	margin: 4px 2px 0 3px;
+	color:#fff !important;
+	font-size:12px;
+	font-weight:bold;
+}
+
+
+.affiliate_referrer_fields {
+	float:left;
+}
+
+.affiliate_referrer_fields select {
+	min-width:150px;
+}
+
+.fs-date-filter-type {
+	float: left;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+	width: 200px;
+	padding: 0px 0px 0px 10px;
+	background: #f1f1f1;
+	color: #222;
+	margin: 10px 10px 0 20px !important;
+	box-shadow: none !important;
+	height:50px;
+}
+
+.fs-custom-date-range {
+	float: left;
+	display: flex;
+	margin-top: 10px;
+}
+
+.fs-custom-date-range input[type='text'] {
+	margin: 0 10px 0 0;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+}
+
+.fs-custom-date-range .ui-datepicker-trigger {
+	margin: 15px 10px 0 0;
+	height: 20px;
+}
+
+@media screen and (max-width: 767px){
+	.fs_affiliates_frontend_dashboard .fs_affiliates_menu .fs_affiliates_menu_ul li:hover ul li a{
+		display:block;
+		width:150px;
+		padding:5px 10px;
+		outline: none;
+	}
+	.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_download_btn{
+		width:120px;
+		margin:0 auto !important;
+	}
+	.fs_affiliates_menu_content table.fs_affiliates_overview_frontend_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_order_detail_frontend_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_customer_detail_frontend_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_commission_frontend_table tbody th{
+		width:50%;
+		font-weight:bold;
+		text-align: left;
+	}
+
+	.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table,
+	.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table,
+	.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table,
+	.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table,
+	.fs_affiliates_menu_content table.fs_affiliate_payout_request_log_table,
+	.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table,
+	.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table,
+	.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table,
+	.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table,
+	.fs_affiliates_menu_content table.fs_affiliates_fileupload_frontend_table,
+	.fs_affiliates_menu_content table.fs_affiliates_landing_page_table,
+	.fs_affiliates_menu_content table.fs_affiliates_coupon_linking_table,
+	.fs_affiliates_menu_content table.fs_affiliates_frontend_table
+	.fs_affiliates_menu_content table.fs_affiliates_domain_table{
+		border:none;
+	}
+	.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliate_payout_request_log_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliates_fileupload_frontend_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliates_landing_page_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliates_coupon_linking_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliates_frontend_table tbody tr,
+	.fs_affiliates_menu_content table.fs_affiliates_domain_table tbody tr{
+		display: block;
+		margin-bottom:15px;
+	}
+	.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table tbody tr:first-child,
+	.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table tbody tr:first-child,
+	.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tbody tr:first-child,
+	.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table tr:first-child,
+	.fs_affiliates_menu_content table.fs_affiliate_payout_request_log_table tr:first-child,
+	.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table tr:first-child,
+	.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table tr:first-child,
+	.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table tr:first-child,
+	.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table tr:first-child,
+	.fs_affiliates_menu_content table.fs_affiliates_landing_page_table tr:first-child,
+	.fs_affiliates_menu_content table.fs_affiliates_coupon_linking_table tr:first-child,
+	.fs_affiliates_menu_content table.fs_affiliates_frontend_table tr:first-child,
+	.fs_affiliates_menu_content table.fs_affiliates_domain_table tr:first-child{
+		display: block;
+		margin-bottom:0px;
+	}
+	.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliate_payout_request_log_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_fileupload_frontend_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_landing_page_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_coupon_linking_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_frontend_table tbody th,
+	.fs_affiliates_menu_content table.fs_affiliates_frontend_table thead th,
+	.fs_affiliates_menu_content table.fs_affiliates_domain_table tbody th{
+		display:none;
+	}
+	.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliate_payout_request_log_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliates_fileupload_frontend_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliates_landing_page_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliates_coupon_linking_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliates_frontend_table tbody td,
+	.fs_affiliates_menu_content table.fs_affiliates_domain_table tbody td{
+		width:100%;
+		padding: 0px;
+		display:table;
+		color:#000;
+		border-top:none;
+		border-bottom: 1px solid #ccc;
+		word-wrap: normal;
+		word-break: break-all;
+	}
+	.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tbody td img{
+		width:100px;
+		height:auto;
+	}
+	.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table tbody td:empty:after,
+	.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table tbody td:empty:after,
+	.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tbody td:empty:after,
+	.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table td:empty:after,
+	.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table td:empty:after,
+	.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table td:empty:after,
+	.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table td:empty:after,
+	.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table td:empty:after,
+	.fs_affiliates_menu_content table.fs_affiliates_fileupload_frontend_table td:empty:after,
+	.fs_affiliates_menu_content table.fs_affiliates_landing_page_table td:empty:after,
+	.fs_affiliates_menu_content table.fs_affiliates_coupon_linking_table td:empty:after,
+	.fs_affiliates_menu_content table.fs_affiliates_frontend_table td:empty:after,
+	.fs_affiliates_menu_content table.fs_affiliates_domain_table td:empty:after{
+		content:'-';
+	}
+	.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliate_payout_request_log_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliates_fileupload_frontend_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliates_landing_page_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliates_coupon_linking_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliates_frontend_table tbody td:before,
+	.fs_affiliates_menu_content table.fs_affiliates_domain_table tbody td:before{
+		display:table-cell;
+		padding: 10px;
+		text-align:left;
+		width:50%;
+		color:#fff;
+		margin-right: 10px;
+		font-weight:bold;
+	}
+	
+	.fs-date-filter-type {
+		width: 90%;
+	}  
+	
+.fs-custom-date-range {
+	float: left;
+	display: block;
+	margin: 10px 0 10px 20px;
+	width: 90%
+}
+
+.fs-custom-date-range input[type='text'] {
+	margin: 0 10px 10px 0;
+	height: 50px;
+	width:90%;
+	float: left;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+}
+
+.fs-custom-date-range .ui-datepicker-trigger {
+	margin: 15px 0 0 0;
+	height: 20px;
+	float: left;
+}
+
+.fs-date-filter-button {
+	margin: 10px 0 0 20px !important;
+}
+
+}

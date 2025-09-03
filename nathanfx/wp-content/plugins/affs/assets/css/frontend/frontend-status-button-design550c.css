@@ -1,0 +1,229 @@
+/*    Status button design   */
+
+.fs_affiliates_active_status,
+.fs_affiliates_inactive_status,
+.fs_affiliates_pending_approval_status,
+.fs_affiliates_paid_status,
+.fs_affiliates_unpaid_status,
+.fs_affiliates_rejected_status,
+.fs_affiliates_suspended_status,
+.fs_affiliates_acknowledged_status,
+.fs_affiliates_denied_status,
+.fs_affiliates_pending_status,
+.fs_affiliates_processing_status,
+.fs_affiliates_success_status,
+.fs_affiliates_new_status,
+.fs_affiliates_cancelled_status,
+.fs_affiliates_notconverted_status,
+.fs_affiliates_converted_status,
+.fs_affiliates_active_status,
+.fs_affiliates_hold_status{
+	display: inline-flex;
+	border-radius: 4px;
+	border-bottom: 1px solid rgba(0,0,0,.05);
+	margin: -.25em 0;
+	cursor: inherit !important;
+	/*    white-space: nowrap;*/
+	max-width: 100%;
+	padding:0.3em 1em;
+	font-weight:bold;
+	word-break: break-word;
+}
+.fs_affiliates_active_status{
+	background:#02cc4f;
+	color:#fff;
+}
+.fs_affiliates_inactive_status{
+	background:#eba3a3;
+	color:#761919;
+}
+.fs_affiliates_pending_approval_status{
+	background:#f55b11;
+	color:#fff;
+}
+.fs_affiliates_paid_status{
+	background: #c6e1c6;
+	color: #5b841b;
+}
+.fs_affiliates_unpaid_status{
+	background: #616e70;
+	color: #fff;
+}
+.fs_affiliates_rejected_status{
+	background: #d63369;
+	color: #fff;
+}
+.fs_affiliates_suspended_status{
+	background: #287cd6;
+	color: #fff;
+}
+.fs_affiliates_acknowledged_status{
+	background: #8e1093;
+	color: #fff;
+}
+.fs_affiliates_denied_status{
+	background: #0b9fba;
+	color: #fff;
+}
+.fs_affiliates_pending_status{
+	background: #efd812;
+	color: #000;
+}
+.fs_affiliates_pending_status{
+	background: #efd812;
+	color: #000;
+}
+.fs_affiliates_processing_status{
+	background: #0498ff;
+	color: #fff;
+}
+.fs_affiliates_success_status{
+	background: #219b52;
+	color: #fff;
+}
+.fs_affiliates_new_status{
+	background: #102f80;
+	color: #fff;
+}
+.fs_affiliates_cancelled_status{
+	background: #ff0000;
+	color: #fff;
+}
+.fs_affiliates_notconverted_status{
+	background: #c95555;
+	color: #fff;
+}
+.fs_affiliates_converted_status{
+	background: #6c9606;
+	color: #fff;
+}
+.fs_affiliates_hold_status{
+	background:#161515;
+	color: #fff;
+}
+.fs_affiliates_register_notice,
+.fs_affiliates_pending_approval_notice,
+.fs_affiliates_rejected_notice,
+.fs_affiliates_suspended_notice,
+.fs_affiliates_hold_notice{
+	margin:10px auto;
+	width:100%;
+	border-radius:10px;
+	font-size:14px !important;
+	padding:10px;
+}
+.fs_affiliates_register_notice{
+	background:#00cc66;
+	border:1px solid #339933;
+	color:#000;
+}
+.fs_affiliates_pending_approval_notice{
+	background:#ffcc00;
+	border:1px solid #ff9933;
+	color:#000;
+}
+.fs_affiliates_rejected_notice{
+	background:#ff6666;
+	border:1px solid #ff0066;
+	color:#fff;
+}
+.fs_affiliates_suspended_notice{
+	background:#33ccff;
+	border:1px solid #3399ff;
+	color:#000;
+}
+.fs_affiliates_hold_notice{
+	background:#993333;
+	border:1px solid #800000;
+	color:#fff;
+}
+.fs_affiliate_campaigns_list_table .remove_campaigns_list_btn{
+	text-transform: uppercase !important;
+	background: #de1f05 !important;
+	padding: 10px 20px !important;
+	color: #fefefe !important;
+	width: auto !important;
+	height: auto !important;
+	border: none !important;
+	border-radius:5px;
+	text-shadow: none !important;
+	font-weight:bold;
+	box-shadow: 0 5px #c11a04 !important;
+	margin-bottom: 10px;
+	font-size:14px !important;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.fs_affiliate_campaigns_list_table .remove_campaigns_list_btn:active{
+	transform: translateY(5px);
+	box-shadow: none !important;
+}
+/* Dashboard Notice design*/
+
+.fs_affiliates_msg_success{
+	display:block;
+	width:96%;
+	margin:10px auto;
+	border:1px solid #138f30 !important;
+	padding:10px 10px 10px 10px !important;
+	box-shadow:0 0 1px #138f30  !important;
+	color:#fff;
+	background:#138f30 !important;
+}
+
+.fs_affiliates_msg_fails{
+	display:block;
+	width:96%;
+	margin:10px auto;
+	border:1px solid #cb0000 !important;
+	padding:10px 10px 10px 10px !important;
+	box-shadow:0 0 1px #cb0000  !important;
+	color:#fff;
+	background:#cb0000 !important;
+}
+
+.fs_affiliates_msg_success_post{
+	display:block;
+	width:96%;
+	margin:10px auto;
+	border:1px solid #138f30 !important;
+	padding:10px 10px 10px 10px !important;
+	box-shadow:0 0 1px #138f30  !important;
+	color:#fff;
+	background:#138f30 !important;
+}
+
+.fs_affiliates_msg_fails_post{
+	display:block;
+	width:96%;
+	margin:10px auto;
+	border:1px solid #cb0000 !important;
+	padding:10px 10px 10px 10px !important;
+	box-shadow:0 0 1px #cb0000  !important;
+	color:#fff;
+	background:#cb0000 !important;
+}
+.fs_affiliates_msg_success i, .fs_affiliates_msg_fails i, .fs_affiliates_msg_success_post i, .fs_affiliates_msg_fails_post i{
+	margin-right:10px;
+	font-size:16px;
+}
+p.fs_affiliates_success_notices, p.fs_affiliates_failure_notices{
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin: 0;
+	width: 100%;
+	font-size: 1em;
+	padding: 1.5em 0;
+	text-align: center;
+	z-index: 99998;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+}
+p.fs_affiliates_success_notices{
+	background-color: #00ab28;
+}
+p.fs_affiliates_failure_notices{
+	background-color: #ef1212;
+}

@@ -1,0 +1,134 @@
+/*  Frontend Dashboard Menu icon */
+
+	/*  frontend Referalls table head content   */
+	@media screen and (max-width: 767px){
+		.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table tbody td:before{
+			content:attr(data-title);
+		}
+		
+		.fs_affiliates_menu_content table.fs-affiliates-product-commisssion-table tbody td:before{
+			content:attr(data-title);
+		}
+
+		/*  frontend visits table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table tbody td:before{
+			content:attr(data-title);
+		}
+
+		/*  frontend creatives table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tbody td:before{
+			content:attr(data-title);
+		}
+
+		/*  frontend Transaction Log table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table tbody td:before{
+			content:attr(data-title);
+		}
+
+		/*  frontend campaigns table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table tbody td:before{
+			content:attr(data-title);
+		}
+
+		/*  frontend campaigns list table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table tbody td:before{
+			content:attr(data-title);
+		}
+
+		/*  frontend Payout table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table tbody td:before{
+			content:attr(data-title);
+		}
+
+		/*  frontend leaderboard table head content  */
+
+		/* frontend leaderboard Commission Earned table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table_one tbody td:before{
+			content:attr(data-title);
+		}
+
+		/* frontend leaderboard No Of Referrals table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table_two tbody td:before{
+			content:attr(data-title);
+		}
+
+		/* frontend leaderboard No of Referral table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table_three tbody td:before{
+			content:attr(data-title);
+		}
+
+		/* frontend leaderboard No of Referral Orders Placed table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliates_leaderboard_frontend_table_four tbody td:before{
+			content:attr(data-title);
+		}
+
+		/*  frontend fileupload table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliates_fileupload_frontend_table tbody td:before{
+			content:attr(data-title);
+		}
+		
+		/*  frontend fileupload table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliates_landing_page_table tbody td:before{
+			content:attr(data-title);
+		}
+		
+		/*  frontend Links Coupons table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliates_coupon_linking_table tbody td:before{
+			content:attr(data-title);
+		}
+		
+		/*  frontend domain table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliates_domain_table tbody td:before{
+			content:attr(data-title);
+		}
+		
+		/*  frontend Payout Request table head content   */
+
+		.fs_affiliates_menu_content table.fs_affiliate_payout_request_log_table tbody td:before{
+			content:attr(data-title);
+		}
+
+	}
+	@media screen and (max-width: 460px){
+		.fs_affiliates_menu_content table.fs_affiliates_referrals_frontend_table tbody td:before,
+		.fs_affiliates_menu_content table.fs_affiliates_visits_frontend_table tbody td:before,
+		.fs_affiliates_menu_content table.fs_affiliates_creatives_frontend_table tbody td:before,
+		.fs_affiliates_menu_content table.fs_affiliate_transaction_log_table tbody td:before,
+		.fs_affiliates_menu_content table.fs_affiliates_campaigns_frontend_table tbody td:before,
+		.fs_affiliates_menu_content table.fs_affiliate_campaigns_list_table tbody td:before,
+		.fs_affiliates_menu_content table.fs_affiliates_Payout_frontend_table tbody td:before,
+		.fs_affiliates_menu_content table.fs-affiliates-product-commisssion-table tbody td:before,
+		.fs_affiliates_menu_content table.fs_affiliates_domain_table tbody td:before{
+			display:table-cell;
+			padding: 10px;
+			text-align:left;
+			width:50%;
+			margin-right: 10px;
+			font-weight:bold;
+		}
+		.fs_affiliates_menu_content table.fs_affiliates_overview_frontend_table tbody th,
+		.fs_affiliates_menu_content table.fs_affiliates_commission_frontend_table tbody th{
+			width:50%;
+			font-weight:bold;
+			text-align: left;
+		}
+		.fs_affiliates_frontend_dashboard .fs_affiliates_menu_content .fs_affiliates_download_btn{
+			width:auto !important;
+			margin:5px !important;
+		}
+
+	}

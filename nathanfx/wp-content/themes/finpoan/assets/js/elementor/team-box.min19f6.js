@@ -1,0 +1,1 @@
+!function(){"use strict";jQuery(window).on("elementor/frontend/init",()=>{elementorFrontend.hooks.addAction("frontend/element_ready/finpoan-team-box.default",e=>{elementorFrontend.elementsHandler.addHandler(finpoanSwiperBase,{$element:e})})})}();
